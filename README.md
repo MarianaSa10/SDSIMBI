@@ -18,6 +18,10 @@ Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
 ├─ Contributions.md/
 
 ├─ Basic Protocol Analysis/
+│  ├─ Cap1-Cap2-Cap3-pcap/
+│  ├─ pcap1_screenshots/
+│  ├─ pcap2_screenshots/
+│  ├─ pcap3_screenshots/
 
 ├─ HTTP Security Vulnerability Analysis/
 
