@@ -17,11 +17,11 @@ Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
 
 ├─ Contributions.md/
 
-├─ Basic Protocol Analysis/
-│  ├─ Cap1-Cap2-Cap3-pcap/
-│  ├─ pcap1_screenshots/
-│  ├─ pcap2_screenshots/
-│  ├─ pcap3_screenshots/
+Basic Protocol Analysis/
+├─ Cap1-Cap2-Cap3-pcap/ # Ficheiros de captura de pacotes (PCAP)
+├─ pcap1_screenshots/ # Capturas de ecrã da análise do PCAP 1
+├─ pcap2_screenshots/ # Capturas de ecrã da análise do PCAP 2
+└─ pcap3_screenshots/ # Capturas de ecrã da análise do PCAP 3
 
 ├─ HTTP Security Vulnerability Analysis/
 
