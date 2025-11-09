@@ -13,14 +13,6 @@ C-STORE
 /home/mariana/Desktop/imagens/PX-series-000001/image-000001.dcm
 
 
-C-FIND GERAL
-findscu -b FINDSCU -c ORTHANC@localhost:104 --tls \
---trust-store /etc/orthanc/orthanc.p12 --trust-store-pass "changeit" \
---trust-store-type PKCS12 \
---key-store /etc/orthanc/dcm4che.p12 --key-store-pass "password" \
--m QueryRetrieveLevel=STUDY
-
-
 C-FIND
 /home/mariana/Desktop/dcm4che-5.33.0/bin/findscu \
   -b FINDSCU \
