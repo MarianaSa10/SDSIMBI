@@ -32,4 +32,8 @@ Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
 
 ├─ DICOM Protocol/ 
 
+│ ├─ DICOM Protocol sem TLS
+
+│ ├─ DICOM Protocol com TLS
+
 
