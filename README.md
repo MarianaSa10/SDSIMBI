@@ -30,6 +30,10 @@ Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
 
 ├─ HTTP Security Vulnerability Analysis/
 
+│ ├─ screenshots
+
+│ └─ wiresharktabalho.pcap
+
 ├─ DICOM Protocol/ 
 
 │ ├─ DICOM Protocol sem TLS
