@@ -1,5 +1,22 @@
+
+#Criar os certificados do servidor Orthanc 
+  sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 \
+  -keyout /etc/orthanc/orthanc.key \
+  -out /etc/orthanc/orthanc.crt \
+ 	  -subj "/CN=ORTHANC"
+
+#criação do trust-store com o certificado do Orthanc
+	sudo openssl pkcs12 -export \
+  -in /etc/orthanc/orthanc.crt \
+  -out /etc/orthanc/orthanc.p12 \
+  -name orthanc \
+  -passout pass:changeit
+
+
+#Utilizou-se este comando para mover os certificados inicialmente criados na pasta pki
 sudo mv /etc/orthanc/pki/orthanc.crt /etc/orthanc/orthanc.crt
 sudo mv /etc/orthanc/pki/orthanc.key /etc/orthanc/orthanc.key
+
 sudo chown orthanc:orthanc /etc/orthanc/orthanc.*
 sudo chmod 644 /etc/orthanc/orthanc.crt
 sudo chmod 600 /etc/orthanc/orthanc.key
