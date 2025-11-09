@@ -1,0 +1,48 @@
+Código Java para modificar imagens DICOM:
+
+import org.dcm4che3.data.*;
+import org.dcm4che3.io.*;
+import org.dcm4che3.util.UIDUtils;
+import java.io.*;
+
+public class EditDicom {
+    public static void main(String[] args) throws IOException {
+        if (args.length < 2) {
+            System.out.println("Uso: java EditDicom <entrada.dcm> <saida.dcm>");
+            return;
+        }
+
+        File inputFile = new File(args[0]);
+        File outputFile = new File(args[1]);
+
+        Attributes dataset;
+        try (DicomInputStream din = new DicomInputStream(inputFile)) {
+            dataset = din.readDataset(-1, -1);
+        }
+
+        // alterações
+        dataset.setString(Tag.PatientName, VR.PN, "Cristiano^Ronaldo");
+        dataset.setString(Tag.PatientID, VR.LO, "TESTE123");
+        dataset.setString(Tag.StudyDate, VR.DA, "20251107");
+
+        // Atualiza UIDs para evitar conflitos
+        dataset.setString(Tag.StudyInstanceUID, VR.UI, UIDUtils.createUID());
+        dataset.setString(Tag.SeriesInstanceUID, VR.UI, UIDUtils.createUID());
+        dataset.setString(Tag.SOPInstanceUID, VR.UI, UIDUtils.createUID());
+
+        
+        try (DicomOutputStream dos = new DicomOutputStream(outputFile)) {
+            dos.writeDataset(dataset.createFileMetaInformation(UID.ImplicitVRLittleEndian), dataset);
+        }
+
+        System.out.println(" DICOM modificado -->" + outputFile.getAbsolutePath());
+    }
+}
+
+
+
+Comando para compilar e correr o código:
+Javac -cp "Desktop/dcm4che-5.33.0/lib/dcm4che/*" EditDicom.java
+java -cp ".:Desktop/dcm4che-5.33.0/lib/dcm4che/*" EditDicom \
+Desktop/imagens/CT-series-000005/image-000176.dcm \
+ Desktop/imagens/image-editado.dcm
