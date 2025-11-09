@@ -32,7 +32,7 @@ Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
 
 │ ├─ screenshots
 
-│ └─ wiresharktabalho.pcap
+│ └─ wiresharktrabalho.pcap
 
 ├─ DICOM Protocol/ 
 
