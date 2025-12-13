@@ -64,3 +64,13 @@ Assignment 2: Biomedical Distributed Systems Security Consulting
 Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
 
 /
+
+├─ Assignment 2/ 
+
+│ ├─ 1.System Architecture Modeling/
+
+│ ├─ 2.Threat Enumeration/ 
+
+│ └─ references/ 
+
+
