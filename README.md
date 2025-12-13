@@ -1,5 +1,8 @@
 # SDSIMBI
-1 Project
+
+
+1st Project
+========================
 
 Assignment 1: Security Analysis in Biomedical Communication Protocols 
 
@@ -41,3 +44,23 @@ Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
 │ └─ DICOM Protocol com TLS
 
 
+2nd Project
+========================
+
+Assignment 2: Biomedical Distributed Systems Security Consulting
+
+1.System Architecture Modeling - done by: Guilherme Pereira
+
+2.Threat Enumeration - done by: Guilherme Pereira
+
+3.Risk Quantification - done by: Laura Freitas
+
+4.Security Practice Selection - done by: Mariana Sá
+
+5.Implementation Planning  - done by: Ana Lobo
+
+6.Integration Roadmap - done by: Ana Lobo
+
+Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
+
+/
