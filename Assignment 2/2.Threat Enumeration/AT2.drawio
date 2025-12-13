@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.7">
+  <diagram name="Page-1" id="jyPF4XQxlmm1xNd-n55X">
+    <mxGraphModel dx="1328" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TjD85qSHsn5QbLOmQdej-1" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-2" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Comprometer Integridade / Confidencialidade no FDN" vertex="1">
+          <mxGeometry height="40" width="200" x="270" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-4" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-5" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Inserir / Executar código malicioso no FDN" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-8" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-9" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Comprometer a disponibilidade / integridade operacional" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Container privilege escalation (root no host)" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Data poisoning no modelo carregado" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-13" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-14" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-35" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Injetar carga útil maliciosa" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Race condition no pipeline de processamento" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-18" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-36" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-37" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Comprometer&amp;nbsp; Ferramenta de IA&amp;nbsp; &amp;nbsp; no container" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Buffer Overflow" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Format String exploit" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&amp;nbsp;saturação de&amp;nbsp; &amp;nbsp;CPU/GPU" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Corrompimento de Memória (Use-After-Free)" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-26" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-27" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Negação de Serviço no FDN" vertex="1">
+          <mxGeometry height="60" width="120" x="694" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Firewall misconfiguration → acesso inbound" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Acesso a backups / logs não protegidos" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-31" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-32" edge="1" parent="1" source="TjD85qSHsn5QbLOmQdej-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TjD85qSHsn5QbLOmQdej-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Falha de configuração / rede" vertex="1">
+          <mxGeometry height="60" width="120" x="694" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="TjD85qSHsn5QbLOmQdej-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQL Injection em APIs federadas" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
