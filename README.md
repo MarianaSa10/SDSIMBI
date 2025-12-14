@@ -73,4 +73,6 @@ Work done by: Ana Lobo, Guilherme Pereira, Laura Freitas and Mariana Sá
 
 │ └─ references/ 
 
+│ └─ 3.Tabelas_Risk_Quantification/ 
+
 
